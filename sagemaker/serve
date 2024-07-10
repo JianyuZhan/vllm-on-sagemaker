@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This serve script is the canonical sagemaker endpoint point.
+
+python3 /app/sagemaker_serving.py
