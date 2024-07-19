@@ -35,7 +35,7 @@ sagemaker/build_and_push_image.sh --region "$REGION" --image-name "$IMG_NAME" --
 After the image is built and pushed, retrieve the image URI:
 
 ```sh
-export IMG_URI=$(sagemaker/get_ecr_image_uri.sh --region "$REGION" --image-name "$IMG_NAME" --tag "$IMG_TAG")
+export IMG_URI=$(sagemaker/get_ecr_image_uri.sh --region "$REGION" --img-name "$IMG_NAME" --tag "$IMG_TAG")
 echo $IMG_URI
 ```
 
